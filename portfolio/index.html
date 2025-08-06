@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Francis Mule Portfolio " />
+    <meta name="author" content="Francis Mule" />
+    <title>Francis - Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Circuit background -->
+    <div class="circuit-bg"></div>
+    <div class="circuit-lines">
+      <div class="line line-1"></div>
+      <div class="line line-2"></div>
+      <div class="line line-3"></div>
+    </div>
+
+    <!-- Decorative leaves -->
+    <div class="leaf-decoration leaf-1"></div>
+    <div class="leaf-decoration leaf-2"></div>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <div class="profile-section">
+          <img
+            src="./img/avatar.gif"
+            alt="Francis"
+            class="profile-image"
+            loading="lazy"
+          />
+        </div>
+        <div class="intro-text">
+          <h1>Hey,<br />I'm Francis</h1>
+          <p class="subtitle">
+            cultivating code and green ideas in the digital jungle
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+          I'm a passionate developer who believes in creating sustainable
+          digital solutions that grow organically. Like nature's intricate
+          networks, I build applications that are interconnected, efficient, and
+          beautiful. My approach combines technical expertise with environmental
+          consciousness, creating code that not only functions flawlessly but
+          also contributes to a greener digital ecosystem.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <div class="projects-content">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>EcoCode Analytics</h3>
+            <p>
+              A sustainable web application that analyzes carbon footprint of
+              digital products and suggests optimization strategies for greener
+              development practices.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>Neural Garden</h3>
+            <p>
+              Machine learning platform that mimics plant growth patterns to
+              optimize network architectures, creating more efficient and
+              naturally-inspired AI models.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>Organic UI Framework</h3>
+            <p>
+              A component library inspired by natural forms and growth patterns,
+              providing developers with environmentally-conscious design
+              elements.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>Green DevOps</h3>
+            <p>
+              Infrastructure automation tools that prioritize energy efficiency
+              and carbon reduction in cloud deployments and development
+              workflows.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="contact-content">
+        <h2 class="section-title">Contact Me</h2>
+        <form class="contact-form">
+          <label for="name">Your Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Enter your full name"
+          />
+
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter your email"
+          />
+
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="What's this about?"
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+            placeholder="Type your message here..."
+          ></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
