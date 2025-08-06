@@ -18,7 +18,7 @@ Welcome to the source code of my personal **Portfolio Website** — a fusion of 
 
 ## 🌐 Live Preview
 
-> 🔗 URL: [Your Live Portfolio](https://francismul.github.io/plp)
+> 🔗 URL: [Live Portfolio](https://francismul.github.io/plp)
 
 
 ---
@@ -34,10 +34,8 @@ The contact section includes a name, email, subject, and message field. You can 
 
 ## 📦 How to Use
 
-1. Clone or download the repository.
-
-2. Edit content and styles as desired
-
+1. Clone or download the repository
+2. Edit content and styles as desire
 3. Host it using any static hosting provider.
 
 ---
