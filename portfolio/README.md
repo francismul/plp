@@ -18,7 +18,7 @@ Welcome to the source code of my personal **Portfolio Website** — a fusion of 
 
 ## 🌐 Live Preview
 
-> 🔗 URL: [Live Portfolio]([https://francismul.github.io/portfolio](https://francismul.github.io/plp/))
+> 🔗 URL: [Live Portfolio](https://francismul.github.io/plp/)
 
 
 ---
