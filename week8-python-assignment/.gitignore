@@ -1,0 +1,42 @@
+# Large dataset files
+metadata.csv
+metadata_cleaned.csv
+metadata_prepared.csv
+
+# Keep only the sample dataset
+!metadata_sample.csv
+
+# Python cache and environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+# Log files
+*.log
